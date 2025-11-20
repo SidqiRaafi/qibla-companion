@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582621368418",
+    "project_id": "qibla-companion",
+    "storage_bucket": "qibla-companion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582621368418:android:17a75416ce484628ea813b",
+        "android_client_info": {
+          "package_name": "com.example.tugas_uts_qibla"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhou_LfU1Q0wQyzNYoH7awZc_NswzUzuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

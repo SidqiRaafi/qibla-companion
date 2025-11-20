@@ -1,0 +1,51 @@
+name: tugas_uts_qibla
+description: "A Flutter Qibla and Prayer Times application."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  adhan_dart: ^1.2.0
+  cloud_firestore: ^6.1.0
+  firebase_auth: ^6.1.2
+  firebase_core: ^4.2.1
+  flutter:
+    sdk: flutter
+  flutter_qiblah: ^3.1.0+1
+  geolocator: ^13.0.4
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/compass.png
+    - assets/images/background-waktu.jpg
+
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/GOTHAM-LIGHT.TTF
+          weight: 300
+        - asset: assets/fonts/GOTHAM-MEDIUM.TTF
+          weight: 400
+        - asset: assets/fonts/GOTHAM-MEDIUM.TTF
+          weight: 500
+        - asset: assets/fonts/GOTHAM-BOLD.TTF
+          weight: 700
+        - asset: assets/fonts/GOTHAM-BLACK.TTF
+          weight: 900
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/compass.png"
+  min_sdk_android: 21
